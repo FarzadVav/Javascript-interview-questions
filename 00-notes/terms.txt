@@ -1,0 +1,5 @@
+ways for access to objects:
+  - obj.name => Dot Notation
+  - obj["name"] => Bracket Notation
+
+------------------------------------
