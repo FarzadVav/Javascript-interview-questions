@@ -1,3 +1,3 @@
-const res = typeof !!!!null
+const res = typeof !!!null
 
 console.log(res) // res === ?
