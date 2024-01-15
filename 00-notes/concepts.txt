@@ -5,3 +5,6 @@ ways for access to objects:
 ---
 
 IIFE = Immediately invoked function expressions
+---
+
+ASI = Automatic Semicolon Insertion
