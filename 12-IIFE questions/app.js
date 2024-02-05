@@ -1,29 +1,29 @@
 // Q1 -------- 1. Fixed bug & 2. What is console result
-var value = 18
-var result = 34
+var value = 70
+var result = 789
 (function () {
   result = value
-  var value = 90
+  var value = 77
 })()
 // console.log(result)
 
 // Q2 ------------------
-var foo = (function () {
-  var foo = 2
+var fn = (function () {
+  var fn = 7
 })()
-// console.log(foo)
+// console.log(fn)
 
 // Q3 ------
 var app = {}
-;(function (param) {
-  // console.log(param === app)
+;(function (p) {
+  // console.log(p === app)
 })(app)
 
 // Q4 --------
 ;(function () {
-  var a = 5
+  var val = 70
 })()
-// console.log(a)
+// console.log(val)
 
 // Q5 ---------
 ;-(function () {
@@ -32,7 +32,7 @@ var app = {}
 
 // Q6 ------
 var app = {}
-;(function (param) {
-  param.name = "FarzadVav"
+;(function (p) {
+  p.name = "FarzadVav"
 })(app)
 // console.log(app.name)
